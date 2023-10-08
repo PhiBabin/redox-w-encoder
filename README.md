@@ -16,6 +16,7 @@ Adding a rotary encoder increase the battery consumption by a lot. Usually, the 
 |----:| -----------------------------------------------| :---------: |
 |   1 | Rotary encoder              | [Link](https://www.digikey.com/en/products/detail/bourns-inc/PEC11L-4015F-S0020/4699163) |
 |   1 | Knurled Knob               | [Link](https://www.digikey.com/en/products/detail/kilo-international/OEDNI-50-3-7/5970320) |
+
 I used a rotary encoder without indentation, this was probably not a great idea, since the indentation give a good feedback of how much you turned the knob. Other rotary encoders probably will work fine, but they might require modifying the 3D printed case. The schematic and PCB includes two pullup resistors (R1 and R2) for the encoder, turns out they're not necessary and can be left unpopulated.
 
 ## Build Instructions
