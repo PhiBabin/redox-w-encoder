@@ -23,6 +23,7 @@ I used a rotary encoder without indentation, this was probably not a great idea,
 Follow [the original build guide](https://github.com/mattdibi/redox-keyboard/blob/master/redox-w/README.md) for the Wireless Redox keyboard, but:
  - Use a Redox-wireless PCB with an rotary encoder
  - Do not soldering a Kailh socket to the 16th Key, instead solder the rotary encoder
+ - R1 and R2 resistors are unused and don't need to be populated
  - Once the keyboard is inside its case, insert the knob
  - Flash the receiver, the left and right keyboard with [modified firmware](https://github.com/PhiBabin/redox-w-firmware)
    - By default, only the right side has an encoder, [you can change that here](https://github.com/PhiBabin/redox-w-firmware/blob/master/redox-w-keyboard-basic/config/redox-w.h#L29)
